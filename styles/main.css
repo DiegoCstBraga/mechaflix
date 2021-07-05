@@ -1,8 +1,10 @@
+/* DEFAULT STYLING */
 :root {
   --vermelho: #e50914;
   --preto: #141414;
   --cinza: #bbb;
   --branco: #fff;
+  --more-info-bg: #312D30;
 }
 
 * {
@@ -13,12 +15,21 @@
 
 body {
   background: var(--preto);
-  /* font-family: 'Times New Roman', Times, serif; */
+  color: var(--branco);
   font-family: 'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+/* STYLING HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
 }
 
 .left-container {
@@ -32,7 +43,7 @@ a {
 .logo {
   color: var(--vermelho);
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #navbar {
@@ -51,9 +62,88 @@ a {
   color: var(--branco)
 }
 
-header {
+.right-container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 
-  padding: 1rem 2rem;
+  gap: 2rem;
+
+}
+
+.material-icons-outlined.light-icon { 
+  color: var(--branco);
+  font-size: 24px;
+}
+
+.material-icons-outlined.dark-icon { 
+  color: var(--preto);
+  font-size: 24px;
+}
+
+
+/* STYLING Main Show */
+.main-show{
+  height: 70vh;
+  width: 100vw;
+
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) 100%), url('../assets/img/evangelion1995-BG.jpg');
+  background-size: cover;
+}
+
+.show-info {
+  width: 45vw;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 4rem 8rem 4rem 4rem ;
+
+  gap: 1.2rem;
+
+}
+
+.show-title {
+  font-size: 2.5rem;
+}
+
+.show-description {
+  text-align: justify;
+}
+
+.main-show-buttons {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.fat-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+
+  gap: 0.5rem;
+
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+
+  border: hidden;
+  border-radius: 4px;
+
+  transition: 0.2s;
+}
+
+.more-info {
+  background: var(--more-info-bg);
+  color: var(--branco)
+  
+}
+
+.fat-button:hover {
+  cursor: pointer;
+
+  opacity: 0.7;
 }

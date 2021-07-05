@@ -5,18 +5,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix</title>
+  <title>MechaFlix</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
   <header>
     <div class="left-container">
-      <a class="logo" href="/">NETFLIX</a>
+      <a class="logo" href="/">MECHAFLIX</a>
 
       <nav id="navbar">
         <a href="#">Início</a>
@@ -27,7 +30,58 @@
         <a href="#">Assista de novo</a>
       </nav>
     </div>
+
+    <div class="right-container">
+      <a href="">
+        <span class="material-icons-outlined light-icon">search</span>
+
+      </a>
+
+      <a href="">
+        <span class="material-icons-outlined light-icon">
+          notifications
+        </span>
+      </a>
+    </div>
   </header>
+
+  <main>
+    <section class="main-show">
+      <aside class="show-info">
+        <h3 class='show-title'>Neon Genesis Evangelion</h3>
+        <p class='show-description'>No ano 2000, um grande impacto de um meteoro na Antártida derreteu o continente
+          gelado, elevando o nível dos mares. Chegou-se a conclusão que Deus estaria tentando eliminar a raça humana e
+          previu-se o envio de "Angels" para acabar com a humanidade. Preparando-se para isso, criou-se uma grande
+          organização, custeada por todo o mundo: A NERV. Seu objetivo seria o de proteger a humanidade, pesquisando
+          formas de defesa. Assim nasceram os Evangelions (ou EVA's): Gigantescos robôs pilotados por alguém com o dom
+          de "sincronizar" com o sistema.</p>
+
+        <div class="main-show-buttons">
+          <button role="button" class='fat-button'>
+            <span class="material-icons-outlined dark-icon">
+              play_arrow
+            </span>
+
+            <strong>
+              Assistir
+            </strong>
+          </button>
+
+          <button role="button" class='fat-button more-info'>
+            <span class="material-icons-outlined light-icon">
+              info
+            </span>
+
+            <strong>
+              Mais informações
+            </strong>
+          </button>
+        </div>
+      </aside>
+
+    </section>
+  </main>
+
 </body>
 
 </html>
