@@ -1,5 +1,7 @@
 # Mechaflix
 
+![Tela inicial do mechaflix](.github/MechaFlixHomeScreen.png)
+
 ## 🧪 Tecnologias
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
