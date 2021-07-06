@@ -147,3 +147,18 @@ header {
 
   opacity: 0.8;
 }
+
+/* configurando o carousel */
+
+.other-shows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem;
+}
+
+.item {
+  width: 80%;
+  /* background: red; */
+}
