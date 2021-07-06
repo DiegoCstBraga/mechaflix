@@ -91,7 +91,7 @@ header {
 }
 
 .show-info {
-  width: 45vw;
+  width: 45%;
   height: 100%;
 
   display: flex;
@@ -130,7 +130,7 @@ header {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
 
-  border: hidden;
+  border: none;
   border-radius: 4px;
 
   transition: 0.2s;
@@ -145,5 +145,5 @@ header {
 .fat-button:hover {
   cursor: pointer;
 
-  opacity: 0.7;
+  opacity: 0.8;
 }
